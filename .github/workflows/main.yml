@@ -15,7 +15,7 @@ on:
 
 jobs:
   build-firmware:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
     container:
       image: infinitime/infinitime-build
     outputs:
